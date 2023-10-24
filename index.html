@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Login System v2</title>
+</head>
+
+<body>
+    <div data-aos="fade-down">
+        <header>
+            <h1>Welcome on your Login Site</h1>
+            <h3>Please login to your account</h3>
+        </header>
+    </div>
+
+    <div data-aos="fade-up">
+        <main>
+            <div class="box">
+                <h2>Login</h2>
+                <input type="text" id="ILOGIN">
+                <h4 id="ANL"></h4>
+                <h2>Password</h2>
+                <input type="password" id="IPASSWORD">
+                <h4 id="ANP"></h4>
+                <div class="buttons">
+                    <button onclick="check_login()">Submit</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+        <div class="author">
+            <h5>This project is especially made for github, everyone can use this and this is something like template
+            </h5>
+            <h1>Created by: Zakrzak2</h1>
+        </div>
+    </div>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
